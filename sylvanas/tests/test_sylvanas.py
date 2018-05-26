@@ -13,16 +13,16 @@
 # under the License.
 
 """
-test_{{ cookiecutter.module_name }}
+test_sylvanas
 ----------------------------------
 
-Tests for `{{ cookiecutter.module_name }}` module.
+Tests for `sylvanas` module.
 """
 
-from {{ cookiecutter.module_name }}.tests import base
+from sylvanas.tests import base
 
 
-class Test{{ cookiecutter.module_name|capitalize }}(base.TestCase):
+class TestSylvanas(base.TestCase):
 
     def test_something(self):
         pass
